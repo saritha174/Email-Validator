@@ -1,0 +1,40 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(110, 96, 5, 0.638);
+    text-align: center;
+    padding-top: 75px;
+    border-radius: 15px;
+    margin-top: 100px;
+   
+}
+input{
+    display: inline-flex;
+}
+.email-label{
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: black;
+    font-family: sans-serif;
+}
+input[type=email]{
+    width: 60%;
+    height:28px;
+    border-radius: 10px;
+}
+#btn{
+    height: 28px;
+    width: 18%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(32, 72, 217);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 17px;
+}
