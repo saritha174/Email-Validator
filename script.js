@@ -6,7 +6,7 @@ function validateEmail(){
 
     if(regex.test(email.value)){
         alert("Valid email address");
-        email.vale = ""
+        email.value = ""
     }
     else{
         alert("Invalid email id please enter valid email id");
